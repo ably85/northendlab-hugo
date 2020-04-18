@@ -72,7 +72,7 @@ icon = "ti-twitter-alt"
 link = "#"
 [[params.social]]
 icon = "ti-github"
-link = "#"
+link = "https://github.com/ably85/northendlab-hugo"
 [[params.social]]
 icon = "ti-linkedin"
 link = "#"
