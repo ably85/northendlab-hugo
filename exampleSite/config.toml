@@ -1,4 +1,4 @@
-baseURL = "https://ablyblog.netlify.com/"
+baseURL = "https://ablyblog.netlify.app/"
 disqusShortname = ""
 languageCode = "en-us"
 paginate = "5"
