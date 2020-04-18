@@ -9,7 +9,7 @@ title = "Ably Blog"
 URL = "contact"
 name = "Contact"
 weight = 1
-[[menu.main]]
+[[menu.footer]]
 URL = "tools"
 name = "tools"
 weight = 2
@@ -17,6 +17,10 @@ weight = 2
 URL = "contact"
 name = "Contact"
 weight = 1
+[[menu.main]]
+URL = "tools"
+name = "tools"
+weight = 2
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
@@ -60,12 +64,6 @@ enable = true
 preloader = ""
 [params.search]
 enable = true
-[[params.social]]
-icon = "ti-facebook"
-link = "#"
-[[params.social]]
-icon = "ti-twitter-alt"
-link = "#"
 [[params.social]]
 icon = "ti-github"
 link = "https://github.com/ably85/northendlab-hugo"
