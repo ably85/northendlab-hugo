@@ -22,3 +22,5 @@ fields:
       label: link
     label: Tuto
   label: Tuto
+pages:
+- exampleSite/data/tuto 1.yml
