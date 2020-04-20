@@ -10,12 +10,12 @@ URL = "contact"
 name = "Contact"
 weight = 1
 [[menu.main]]
-URL = "tools"
-name = "Tuto"
-weight = 1
-[[menu.main]]
 URL = "contact"
 name = "Contact"
+weight = 1
+[[menu.main]]
+URL = "tools"
+name = "tools"
 weight = 2
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
@@ -27,7 +27,7 @@ description = "This is meta description"
 google_analitycs_id = ""
 google_tag_manager = ""
 home = "Blog"
-logo = "images/logo.svg"
+logo = "images/logo1.png"
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
 image = "images/illustration.svg"
