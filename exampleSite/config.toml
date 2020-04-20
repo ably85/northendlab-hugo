@@ -27,7 +27,7 @@ description = "This is meta description"
 google_analitycs_id = ""
 google_tag_manager = ""
 home = "Blog"
-logo = "images/logo2.svg"
+logo = "images/loho2.svg"
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
 image = "images/illustration.svg"
