@@ -17,8 +17,6 @@ sections:
   create: documents
   match: "**/*"
   new_doc_ext: yml
-  templates:
-  - tools
 - type: directory
   path: exampleSite/content/author
   label: Author
@@ -29,6 +27,7 @@ sections:
 - type: document
   path: exampleSite/documentation
   label: Documentation
+  read_only: true
 - type: directory
   path: exampleSite/content/contact
   label: Contact
