@@ -10,10 +10,6 @@ URL = "contact"
 name = "Contact"
 weight = 1
 [[menu.main]]
-URL = "Tuto 2"
-name = "Tuto2"
-weight = "Tuto2"
-[[menu.main]]
 URL = "contact"
 name = "Contact"
 weight = 1
