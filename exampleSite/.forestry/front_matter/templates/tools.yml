@@ -3,13 +3,15 @@ label: Tuto
 hide_body: true
 fields:
 - type: field_group_list
-  name: Tuto
+  name: tools
+  label: tools
   fields:
   - type: text
     name: title
     label: title
   - type: field_group_list
-    name: Tuto
+    name: tools
+    label: tools
     fields:
     - type: text
       name: name
@@ -20,7 +22,6 @@ fields:
     - type: text
       name: link
       label: link
-    label: Tuto
-  label: Tuto
+   
 pages:
-- exampleSite/config.toml
+- data/tools.yml
