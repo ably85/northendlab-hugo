@@ -10,13 +10,9 @@ URL = "contact"
 name = "Contact"
 weight = 1
 [[menu.main]]
-URL = "Tutoriel "
-name = "Tutoriel "
-weight = "2"
-[[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 1
+weight = 2
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
