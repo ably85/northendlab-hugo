@@ -1,6 +1,6 @@
 ---
 label: Tools
-hide_body: true
+hide_body: false
 fields:
 - type: field_group_list
   name: tools
@@ -22,6 +22,5 @@ fields:
     - type: text
       name: link
       label: link
-   
 pages:
-- data/tools.yml
+- exampleSite/config.toml
