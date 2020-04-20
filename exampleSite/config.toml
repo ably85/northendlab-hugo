@@ -5,10 +5,17 @@ paginate = "5"
 summaryLength = "10"
 theme = "northendlab-hugo"
 title = "Ably Blog"
-[menu.main]
-URL = "tools"
-name = "Tutoriel"
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
 weight = 1
+
+[[menu.main]]
+URL = "tools"
+name = "tools"
+weight = 2
+
 [[menu.footer]]
 URL = "contact"
 name = "Contact"
