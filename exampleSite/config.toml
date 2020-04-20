@@ -6,25 +6,6 @@ summaryLength = "10"
 theme = "northendlab-hugo"
 title = "Ably Blog"
 
-[params.staticman]
-    # If using GitHub, go to https://github.com/apps/staticman-net
-    # If using GitLab, just add the GitLab bot, NO need to hit `/connect/v3/...`
-    enabled             = false
-    api                 = "staticman3.herokuapp.com"  # without trailing slash, defaults to "staticman3.herokuapp.com"
-    gitProvider         = "github"  # either "github" or "gitlab"
-    username            = "ably85"
-    repo                = "northendlab-hugo"
-    branch              = "exampleSite"
-
-[params.staticman.recaptcha]
-      # Both keys must be present to enable recaptcha
-      siteKey           = "" # Site Key
-      encryptedKey      = ""
-
-
-
-
-
 [[menu.main]]
 URL = "tools"
 name = "tools"
@@ -40,6 +21,22 @@ weight = 2
 URL = "contact"
 name = "Contact"
 weight = 1
+
+[params.staticman]
+    # If using GitHub, go to https://github.com/apps/staticman-net
+    # If using GitLab, just add the GitLab bot, NO need to hit `/connect/v3/...`
+    enabled             = false
+    api                 = ""  # without trailing slash, defaults to "staticman3.herokuapp.com"
+    gitProvider         = "github"  # either "github" or "gitlab"
+    username            = "ably85"
+    repo                = "northendlab-hugo"
+    branch              = "exampleSite"
+
+[params.staticman.recaptcha]
+      # Both keys must be present to enable recaptcha
+      siteKey           = "" # Site Key
+      encryptedKey      = ""
+
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
