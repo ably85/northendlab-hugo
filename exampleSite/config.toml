@@ -10,18 +10,18 @@ URL = "contact"
 name = "Contact"
 weight = 1
 [[menu.main]]
-URL = "tools"
-name = "Tuto"
-weight = 1
-[[menu.main]]
 URL = "contact"
 name = "Contact"
+weight = 1
+[[menu.main]]
+URL = "tools"
+name = "tools"
 weight = 2
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
 author = "Ably"
-contact_form_action = "#"
+contact_form_action = "netlify"
 copyright = "&copy; 2020 Ably Blog All Rights Reserved"
 description = "This is meta description"
 google_analitycs_id = ""
