@@ -13,8 +13,8 @@ sections:
   - post
 - type: directory
   path: exampleSite/data
-  label: 'Tutoriel '
-  create: all
+  label: Tools
+  create: documents
   match: "**/*"
   new_doc_ext: yml
   templates:
