@@ -1,3 +1,4 @@
+Tuto = []
 baseURL = "https://ablyblog.netlify.app/"
 disqusShortname = ""
 languageCode = "en-us"
