@@ -9,12 +9,12 @@ title = "Ably Blog"
 [[menu.main]]
 URL = "tools"
 name = "tools"
-weight = 2
+weight = 1
 
 [[menu.main]]
 URL = "contact"
 name = "Contact"
-weight = 1
+weight = 2
 
 
 [[menu.Footer]]
@@ -70,9 +70,3 @@ link = "https://github.com/ably85/northendlab-hugo"
 [[params.social]]
 icon = "ti-linkedin"
 link = "https://www.linkedin.com/in/abdelali-lyoussefi-a5413ab5/"
-[[Tuto]]
-title = "Tutoriel "
-[[Tuto.Tuto]]
-image = ""
-link = "Tutoriel "
-name = "Tutoriel "
