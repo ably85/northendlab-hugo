@@ -1,5 +1,5 @@
 baseURL = "https://ablyblog.netlify.app/"
-disqusShortname = ""
+disqusShortname = "ably-2"
 languageCode = "en-us"
 paginate = "5"
 summaryLength = "10"
