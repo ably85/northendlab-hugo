@@ -21,7 +21,7 @@ weight = 2
 home = ["HTML", "AMP", "RSS", "JSON"]
 [params]
 author = "Ably"
-contact_form_action = "netlify"
+contact_form_action = "data-netlify=\"true\""
 copyright = "&copy; 2020 Ably Blog All Rights Reserved"
 description = "This is meta description"
 google_analitycs_id = ""
