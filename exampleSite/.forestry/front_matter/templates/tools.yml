@@ -24,4 +24,3 @@ fields:
   label: Tuto
 pages:
 - exampleSite/config.toml
-- exampleSite/data/Tuto test.yml
