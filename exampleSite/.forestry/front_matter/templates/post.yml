@@ -24,3 +24,5 @@ fields:
   name: type
   label: type
   default: post
+pages:
+- exampleSite/content/iphone-12-pro-une-encoche-réduite.md
