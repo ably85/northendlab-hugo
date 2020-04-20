@@ -10,12 +10,12 @@ URL = "contact"
 name = "Contact"
 weight = 1
 [[menu.main]]
-URL = "tools"
-name = "Tutoriel"
-weight = 1
-[[menu.main]]
 URL = "contact"
 name = "Contact"
+weight = 1
+[[menu.main]]
+URL = "tools"
+name = "tools"
 weight = 2
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
@@ -24,7 +24,7 @@ author = "Ably"
 contact_form_action = ""
 copyright = "&copy; 2020 Ably Blog All Rights Reserved"
 description = "This is meta description"
-google_analitycs_id = "229496242"
+google_analitycs_id = "163949674"
 google_tag_manager = "GTM-KQGF6ZC"
 home = "Blog"
 logo = "images/loho2.svg"
