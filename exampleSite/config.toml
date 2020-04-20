@@ -1,4 +1,3 @@
-Tuto = []
 baseURL = "https://ablyblog.netlify.app/"
 disqusShortname = ""
 languageCode = "en-us"
@@ -63,3 +62,9 @@ link = "https://github.com/ably85/northendlab-hugo"
 [[params.social]]
 icon = "ti-linkedin"
 link = "https://www.linkedin.com/in/abdelali-lyoussefi-a5413ab5/"
+[[Tuto]]
+title = "Tutoriel "
+[[Tuto.Tuto]]
+image = ""
+link = "Tutoriel "
+name = "Tutoriel "
