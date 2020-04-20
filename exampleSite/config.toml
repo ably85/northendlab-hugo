@@ -7,16 +7,17 @@ theme = "northendlab-hugo"
 title = "Ably Blog"
 
 [[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 1
-
-[[menu.main]]
 URL = "tools"
 name = "tools"
 weight = 2
 
-[[menu.footer]]
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 1
+
+
+[[menu.Footer]]
 URL = "contact"
 name = "Contact"
 weight = 1
