@@ -6,6 +6,31 @@ summaryLength = "10"
 theme = "northendlab-hugo"
 title = "Ably Blog"
 
+[outputs]
+home = ["HTML", "AMP", "RSS", "JSON"]
+
+########################## Plugings ######################################
+
+# css plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+
+# js plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+
+########################### Navigation ###################################
+
 [[menu.main]]
 URL = "tools"
 name = "tools"
@@ -37,8 +62,7 @@ weight = 1
       siteKey           = "" # Site Key
       encryptedKey      = ""
 
-[outputs]
-home = ["HTML", "AMP", "RSS", "JSON"]
+######################### Default Parameters ###########################
 [params]
 author = "Ably"
 contact_form_action = ""
@@ -48,10 +72,23 @@ google_analitycs_id = "UA-164118899-1"
 #google_tag_manager = "GTM-KQGF6ZC"
 home = "Blog"
 logo = "images/loho2.svg"
+
+# preloader
+[params.preloader]
+enable = true
+preloader = ""
+
+# search
+[params.search]
+enable = true
+
+####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
 image = "images/illustration.svg"
 title = "Salut! Je suis Ali, et sa c'est mon Blog!"
+
+######################## call to action ###############################
 [params.cta]
 description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
 enable = false
@@ -61,25 +98,8 @@ title = "Get the best hugo templates"
 enable = true
 label = "Visit Here"
 link = "https://gethugothemes.com/shop/"
-[[params.plugins.css]]
-link = "plugins/bootstrap/bootstrap.min.css"
-[[params.plugins.css]]
-link = "plugins/themify-icons/themify-icons.css"
-[[params.plugins.js]]
-link = "plugins/jQuery/jquery.min.js"
-[[params.plugins.js]]
-link = "plugins/bootstrap/bootstrap.min.js"
-[[params.plugins.js]]
-link = "plugins/search/fuse.min.js"
-[[params.plugins.js]]
-link = "plugins/search/mark.js"
-[[params.plugins.js]]
-link = "plugins/search/search.js"
-[params.preloader]
-enable = true
-preloader = ""
-[params.search]
-enable = true
+
+############################## Social Site ##########################
 [[params.social]]
 icon = "ti-github"
 link = "https://github.com/ably85/northendlab-hugo"
