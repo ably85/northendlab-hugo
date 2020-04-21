@@ -72,3 +72,9 @@ link = "#"
 [[params.social]]
 icon = "ti-linkedin"
 link = "#"
+[params.comments.staticman]
+enable = true
+apiEndpoint = "https://api.staticman.net/v2/entry"
+maxDepth = 2
+username = "ably85"
+repository = "northendlab-hugo"
