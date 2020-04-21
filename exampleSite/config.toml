@@ -22,7 +22,7 @@ URL = "contact"
 name = "Contact"
 weight = 1
 
-[params.staticman]
+#[params.staticman]
     # If using GitHub, go to https://github.com/apps/staticman-net
     # If using GitLab, just add the GitLab bot, NO need to hit `/connect/v3/...`
     enabled             = false
@@ -32,7 +32,7 @@ weight = 1
     repo                = "northendlab-hugo"
     branch              = "master"
 
-[params.staticman.recaptcha]
+#[params.staticman.recaptcha]
       # Both keys must be present to enable recaptcha
       siteKey           = "" # Site Key
       encryptedKey      = ""
