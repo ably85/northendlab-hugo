@@ -1,9 +1,16 @@
+############################ Default configuration #########################
+
 baseURL = "https://ablyblog.netlify.app/"
-disqusShortname = ""
 languageCode = "en-us"
+# disqus short name
+disqusShortname = "" # get your shortname form here : https://disqus.com
+# post pagination
 paginate = "5"
+# post excerpt
 summaryLength = "10"
+# theme
 theme = "northendlab-hugo"
+# site title 
 title = "Ably Blog"
 
 [outputs]
