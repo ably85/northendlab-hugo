@@ -1,6 +1,6 @@
 baseURL = "https://ablyblog.netlify.app"
 disqusShortname = ""
-languageCode = "en-us"
+languageCode = "fr-fr"
 paginate = "5"
 summaryLength = "10"
 theme = "northendlab-hugo"
