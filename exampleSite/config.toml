@@ -32,6 +32,12 @@ logo = "images/loho2.svg"
 bgImage = "images/banner/banner-bg.svg"
 image = "images/illustration.svg"
 title = "Salut! C'est AB, et sa c'est mon BloG"
+[params.comments.staticman]
+apiEndpoint = "https://api.staticman.net/v3/entry"
+enable = true
+maxDepth = 2
+repository = "northendlab-hugo"
+username = "ably85"
 [params.cta]
 description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
 enable = false
@@ -72,9 +78,3 @@ link = "#"
 [[params.social]]
 icon = "ti-linkedin"
 link = "#"
-[params.comments.staticman]
-enable = true
-apiEndpoint = "https://api.staticman.net/v2/entry"
-maxDepth = 2
-username = "ably85"
-repository = "northendlab-hugo"
